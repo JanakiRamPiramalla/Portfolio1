@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janaki Ram Piramalla - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">JR</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="particles" id="particles"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-greeting">Hey, I'm <span class="highlight">Janaki Ram</span> 👨‍💻</h1>
+                <h2 class="hero-tagline">Software Developer | Data Analyst | Django Enthusiast</h2>
+                <div class="typing-container">
+                    <span class="typing-text" id="typing-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <div class="hero-buttons">
+                    <a href="/public/JanakiRam.pdf" download class="btn btn-primary">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i> Get In Touch
+                    </a>
+                </div>
+            </div>
+            <div class="hero-avatar">
+                <div class="avatar-container">
+                    <div class="avatar-glow"></div>
+                    <div class="avatar-image">
+                        <img src="https://i.postimg.cc/85mCj5X4/janakiram.jpg" alt="Janaki Ram Piramalla" class="profile-photo" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">C</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">R</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Web Technologies</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML/CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Django</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Bootstrap</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Git</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">VS Code</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Google Colab</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Problem Solving</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>B.Tech in Computer Science & Engineering</h3>
+                        <h4>Aditya College of Engineering & Technology</h4>
+                        <span class="timeline-date">2022 - 2026</span>
+                        <p>CGPA: 8.13</p>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">Data Structures</span>
+                            <span class="skill-tag">Algorithms</span>
+                            <span class="skill-tag">Software Engineering</span>
+                            <span class="skill-tag">Database Systems</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Intermediate (12th Grade)</h3>
+                        <h4>Harward Junior College</h4>
+                        <span class="timeline-date">2020 - 2022</span>
+                        <p>Percentage: 75.8%</p>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">Mathematics</span>
+                            <span class="skill-tag">Physics</span>
+                            <span class="skill-tag">Chemistry</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Secondary School Certificate (10th Grade)</h3>
+                        <h4>VVS Public School</h4>
+                        <span class="timeline-date">2019 - 2020</span>
+                        <p>CGPA: 8.9</p>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">Science</span>
+                            <span class="skill-tag">Mathematics</span>
+                            <span class="skill-tag">English</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="card-header">
+                        <h3>Technical Hub</h3>
+                        <span class="role">Intern</span>
+                    </div>
+                    <div class="card-content">
+                        <p class="description">
+                            Worked on web development projects and student data analysis using modern technologies.
+                            Built comprehensive student performance insights and interactive dashboards.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">R</span>
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Data Analysis</span>
+                        </div>
+                        <div class="highlights">
+                            <h4>Key Achievements:</h4>
+                            <ul>
+                                <li>Built student performance insights with R</li>
+                                <li>Developed responsive web interfaces</li>
+                                <li>Collaborated on data visualization projects</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>🧾 Sales Dashboard</h3>
+                        <div class="project-links">
+                            <a href="https://janaki2004.shinyapps.io/sales-dashboard/" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p>Interactive sales analytics dashboard built with R Shiny featuring ggplot2 heatmaps and seasonal trend insights.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">R</span>
+                            <span class="tech-tag">Shiny</span>
+                            <span class="tech-tag">ggplot2</span>
+                            <span class="tech-tag">Data Visualization</span>
+                        </div>
+                        <div class="project-features">
+                            <ul>
+                                <li>Real-time data visualization</li>
+                                <li>Interactive heatmaps</li>
+                                <li>Seasonal trend analysis</li>
+                                <li>Responsive design</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>🌍 Travel & Tourism Site</h3>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p>Full-stack travel booking platform with user authentication, tour management, and SQLite database integration.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">SQLite</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                        <div class="project-features">
+                            <ul>
+                                <li>User authentication system</li>
+                                <li>Tour booking functionality</li>
+                                <li>Admin dashboard</li>
+                                <li>Responsive UI design</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>⏱ Stopwatch Timer</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/JanakiRamPiramalla/StopWatchTimer" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p>Precision stopwatch application with start, stop, and reset functionality built using vanilla JavaScript.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">DOM Events</span>
+                        </div>
+                        <div class="project-features">
+                            <ul>
+                                <li>Precise time tracking</li>
+                                <li>Clean user interface</li>
+                                <li>Keyboard shortcuts</li>
+                                <li>Lap time functionality</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements & Certifications</h2>
+            <div class="achievements-grid">
+                <div class="achievement-category">
+                    <h3><i class="fas fa-certificate"></i> Certifications</h3>
+                    <div class="achievement-list">
+                        <div class="achievement-item">
+                            <div class="achievement-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h4>Python (Basic)</h4>
+                                <p>HackerRank</p>
+                            </div>
+                        </div>
+                        <div class="achievement-item">
+                            <div class="achievement-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h4>Generative AI</h4>
+                                <p>GeeksForGeeks</p>
+                            </div>
+                        </div>
+                        <div class="achievement-item">
+                            <div class="achievement-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h4>Intro to AI, DL, NLP</h4>
+                                <p>Infosys</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="achievement-category">
+                    <h3><i class="fas fa-trophy"></i> Achievements</h3>
+                    <div class="achievement-list">
+                        <div class="achievement-item">
+                            <div class="achievement-icon">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h4>Python 5-Star</h4>
+                                <p>HackerRank</p>
+                            </div>
+                        </div>
+                        <div class="achievement-item">
+                            <div class="achievement-icon">
+                                <i class="fas fa-running"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h4>5K Run Participation</h4>
+                                <p>Vedha Tech Fest</p>
+                            </div>
+                        </div>
+                        <div class="achievement-item">
+                            <div class="achievement-icon">
+                                <i class="fas fa-puzzle-piece"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h4>Tech Quiz Participation</h4>
+                                <p>Vedha Tech Fest</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content">
+                <div class="contact-links">
+                    <a href="https://github.com/JanakiRamPiramalla" target="_blank" class="contact-link">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://leetcode.com/u/piramallajanakiram/" target="_blank" class="contact-link">
+                        <i class="fas fa-code"></i>
+                        <span>LeetCode</span>
+                    </a>
+                    <a href="https://www.hackerrank.com/profile/piramallajanaki1" target="_blank" class="contact-link">
+                        <i class="fab fa-hackerrank"></i>
+                        <span>HackerRank</span>
+                    </a>
+                </div>
+                <div class="contact-footer">
+                    <p>Crafted with ❤ using HTML, CSS & JS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
